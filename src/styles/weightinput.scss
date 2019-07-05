@@ -1,0 +1,34 @@
+.weightinput
+ {
+   background-color: #e7eef8;
+   padding: 30px;
+   margin: 10px;
+   border-radius: 4px;
+   
+   opacity: 0.8; 
+   .form-container
+    {  
+      background-color: #ffffff;
+      width:460px;
+      height:auto;
+      padding: 10px 0px;
+      min-height: 100px;
+      -webkit-box-shadow: 2px 18px 38px -24px rgba(181,201,221,0.64);
+      -moz-box-shadow: 2px 18px 38px -24px rgba(181,201,221,0.64);
+      box-shadow: 2px 18px 38px -24px rgba(181,201,221,0.64);
+      border:1px solid #b5c9dd;
+      border-radius: 4px;
+      form {
+        input {
+          border-radius: 4px;
+          margin: 0px 10px;
+          padding: 5px;
+          border:1px solid #b5c9dd; 
+          opacity: 0.8; 
+          &::placeholder{
+            text-indent: 8px;
+          }
+        } 
+      }
+    }
+ }
